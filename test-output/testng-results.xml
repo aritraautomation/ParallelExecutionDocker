@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51135" started-at="2020-01-30T11:43:14Z" finished-at="2020-01-30T11:44:05Z">
+    <groups>
+    </groups>
+    <test name="calculationDemo" duration-ms="26" started-at="2020-01-30T11:43:14Z" finished-at="2020-01-30T11:43:14Z">
+      <class name="org.parallelExecTest.Calculation">
+        <test-method status="PASS" signature="sum()[pri:0, instance:org.parallelExecTest.Calculation@551aa95a]" name="sum" duration-ms="6" started-at="2020-01-30T11:43:14Z" finished-at="2020-01-30T11:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- org.parallelExecTest.Calculation -->
+    </test> <!-- calculationDemo -->
+    <test name="searchTest3" duration-ms="47423" started-at="2020-01-30T11:43:14Z" finished-at="2020-01-30T11:44:01Z">
+      <class name="org.parallelExecTest.SearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@5b87ed94]" name="setUp" is-config="true" duration-ms="19246" started-at="2020-01-30T11:43:14Z" finished-at="2020-01-30T11:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCases(java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@5b87ed94]" name="searchCases" duration-ms="28062" started-at="2020-01-30T11:43:33Z" finished-at="2020-01-30T11:44:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.parallelExecTest.SearchTest@5b87ed94]" name="tearDown" is-config="true" duration-ms="111" started-at="2020-01-30T11:44:01Z" finished-at="2020-01-30T11:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.parallelExecTest.SearchTest -->
+    </test> <!-- searchTest3 -->
+    <test name="searchTest1" duration-ms="48267" started-at="2020-01-30T11:43:14Z" finished-at="2020-01-30T11:44:02Z">
+      <class name="org.parallelExecTest.SearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@71423665]" name="setUp" is-config="true" duration-ms="19286" started-at="2020-01-30T11:43:14Z" finished-at="2020-01-30T11:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCases(java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@71423665]" name="searchCases" duration-ms="28845" started-at="2020-01-30T11:43:33Z" finished-at="2020-01-30T11:44:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.parallelExecTest.SearchTest@71423665]" name="tearDown" is-config="true" duration-ms="131" started-at="2020-01-30T11:44:02Z" finished-at="2020-01-30T11:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.parallelExecTest.SearchTest -->
+    </test> <!-- searchTest1 -->
+    <test name="screenshotDemo" duration-ms="50088" started-at="2020-01-30T11:43:14Z" finished-at="2020-01-30T11:44:04Z">
+      <class name="org.parallelExecTest.ScreenshotElement">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.parallelExecTest.ScreenshotElement@43814d18]" name="setUp" is-config="true" duration-ms="31137" started-at="2020-01-30T11:43:14Z" finished-at="2020-01-30T11:43:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://app.hubspot.com/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="screenshotDemo()[pri:0, instance:org.parallelExecTest.ScreenshotElement@43814d18]" name="screenshotDemo" duration-ms="2781" started-at="2020-01-30T11:43:45Z" finished-at="2020-01-30T11:43:48Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: input[id=username]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'RSLPTP1013', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 600, moz:profile: /tmp/rust_mozprofilepgaH3m, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.184-linuxkit, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: c2417e1e-79c5-47d3-9673-3c5...}
+Session ID: c2417e1e-79c5-47d3-9673-3c587ad07040
+*** Element info: {Using=css selector, value=input[id=username]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: input[id=username]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'RSLPTP1013', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 600, moz:profile: /tmp/rust_mozprofilepgaH3m, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.184-linuxkit, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: c2417e1e-79c5-47d3-9673-3c5...}
+Session ID: c2417e1e-79c5-47d3-9673-3c587ad07040
+*** Element info: {Using=css selector, value=input[id=username]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:191)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:125)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:576)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:435)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:496)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.parallelExecTest.ScreenshotElement.screenshotDemo(ScreenshotElement.java:28)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotDemo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.parallelExecTest.ScreenshotElement@43814d18]" name="tearDown" is-config="true" duration-ms="16163" started-at="2020-01-30T11:43:48Z" finished-at="2020-01-30T11:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.parallelExecTest.ScreenshotElement -->
+    </test> <!-- screenshotDemo -->
+    <test name="searchTest2" duration-ms="51135" started-at="2020-01-30T11:43:14Z" finished-at="2020-01-30T11:44:05Z">
+      <class name="org.parallelExecTest.SearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@2b9627bc]" name="setUp" is-config="true" duration-ms="36275" started-at="2020-01-30T11:43:14Z" finished-at="2020-01-30T11:43:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCases(java.lang.String)[pri:0, instance:org.parallelExecTest.SearchTest@2b9627bc]" name="searchCases" duration-ms="4763" started-at="2020-01-30T11:43:50Z" finished-at="2020-01-30T11:43:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qtp]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCases -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.parallelExecTest.SearchTest@2b9627bc]" name="tearDown" is-config="true" duration-ms="10042" started-at="2020-01-30T11:43:55Z" finished-at="2020-01-30T11:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.parallelExecTest.SearchTest -->
+    </test> <!-- searchTest2 -->
+  </suite> <!-- Suite -->
+</testng-results>
